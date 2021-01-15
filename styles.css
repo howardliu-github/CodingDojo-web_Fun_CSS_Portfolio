@@ -1,0 +1,151 @@
+
+div.container{
+    width: 960px;
+    height: 980px;
+    background-color:#5E4A53;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    outline: 2px solid black;
+}
+
+a.cont{
+    text-decoration: none;
+    color:black;
+}
+
+div.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+    div.header h1{
+        display: inline-block;
+        padding: 5px;
+    }
+
+    div.header h2{
+        display: inline-block;
+        padding: 5px;
+    }
+
+div.bodytop{
+    background-color: #5E4A53;
+    display: inline-flex;
+}
+
+    div.contentbox .profile{
+        width: 400px;
+        height: 250px;
+        outline: 5px solid grey;
+        margin: 15px;
+        display: inline;
+    }
+    div.contentbox .about{
+        display: block;
+        vertical-align: top;
+        padding: 10px;
+        margin: 15px 15px 0px 15px;
+        background-color: grey;
+        color: black
+    }
+    div.contentbox .aboutme{
+        background-color: white;
+        margin: 0px 15px;
+        padding: 10px;
+        width: 470px;
+        height: 200px;
+    }
+
+
+div.bodybottom{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+}
+    h2.bottomtitle{
+        display: block;
+        background-color: grey;
+        padding: 10px;
+        margin: 0px;
+    }
+    div.contentbottom{
+        width: 269px;
+        height: 40px;
+        padding: 20px;
+        margin: 0px;
+        display: inline-block;
+        vertical-align: top;
+        
+    }
+    img.bottompic{
+        width: 265px;
+        height: 130px;
+        margin: 0px;
+        padding: 0px;
+    }
+    p.bottomwords{
+        text-align: justify;
+        height: 360px;
+        color: black;
+        background-color: beige;
+        outline-left: 2px solid white;
+        outline-right: 2px solid white;
+        margin: 0px 0px -16px 0px;
+        padding: 0px;
+    }
+
+    div.imageicons{
+        outline: 2px solid white;
+        margin: -10px 0px 0px 0px;
+        background-color: beige;
+    }
+
+    h3{
+        background-color: grey;
+        margin: 0px 0px 10px 0px;
+        padding: 10px 10px 10px 0px;
+    }
+    img.technologies{
+        width: 40px;
+        height: 40px;
+    }
+    a.button{
+        display: block;
+        background: green;
+        text-align: center;
+        margin: 10px 70px;
+        outline-radius: 10px;
+        color: white;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+
+div.footer{
+    vertical-align: bottom;
+    text-align: center;
+    width: 960px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    background-color: white;
+    outline: 2px solid black;
+}
+
+    h4{
+        margin: 0px 0px 15px 0px;
+    }
+
+    ul{
+        list-style-type: none;
+        display: inline-flex;
+        margin: 0px;
+        padding: 0px;
+        font-size: 18px;
+        text-decoration: underline;
+        font-style: italic;
+    }
+
+    img.social {
+        width: 20px;
+        height: 20px;
+    }
